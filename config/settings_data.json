@@ -14,24 +14,24 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "menu": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
-            }
-          },
           "text": {
             "type": "text",
             "settings": {
               "heading": "Store Support",
               "subtext": "<p>Your happiness with your purchase choices is out main aim. <br\/>If you have any questions, about garments, delivery or anything else,<br\/>reach out via 📧 email 💬 chat support or our 📃 Contact Us page.<br\/><\/p>"
             }
+          },
+          "menu": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
           }
         },
         "block_order": [
-          "menu",
-          "text"
+          "text",
+          "menu"
         ],
         "settings": {
           "color_scheme": "accent-1",
