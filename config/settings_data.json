@@ -7,30 +7,31 @@
     "colors_outline_button_labels": "#7B8382",
     "colors_background_1": "#EFECEC",
     "colors_background_2": "#C1BCAE",
-    "type_header_font": "americana_n4",
+    "type_header_font": "bio_rhyme_n4",
+    "heading_scale": 115,
     "type_body_font": "quattrocento_sans_n4",
     "sections": {
       "footer": {
         "type": "footer",
         "blocks": {
-          "menu": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
-            }
-          },
           "text": {
             "type": "text",
             "settings": {
               "heading": "Store Support",
               "subtext": "<p>Your happiness with your purchase choices is out main aim. <br\/>If you have any questions, about garments, delivery or anything else,<br\/>reach out via 📧 email 💬 chat support or our 📃 Contact Us page.<br\/><\/p>"
             }
+          },
+          "menu": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
           }
         },
         "block_order": [
-          "menu",
-          "text"
+          "text",
+          "menu"
         ],
         "settings": {
           "color_scheme": "accent-1",
@@ -52,7 +53,7 @@
             "type": "announcement",
             "settings": {
               "text": "🚚 Free Shipping on $100+ orders",
-              "color_scheme": "inverse",
+              "color_scheme": "accent-1",
               "link": "shopify:\/\/policies\/shipping-policy"
             }
           }
@@ -70,7 +71,7 @@
           "logo_width": 100,
           "logo_position": "middle-left",
           "menu": "main-menu",
-          "menu_type_desktop": "dropdown",
+          "menu_type_desktop": "mega",
           "show_line_separator": true,
           "enable_sticky_header": true,
           "margin_bottom": 0,

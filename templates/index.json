@@ -3,32 +3,40 @@
     "image_banner": {
       "type": "image-banner",
       "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gear up this Spring",
+            "heading_size": "h1"
+          }
+        },
+        "d5db0007-902c-4ccd-9b82-e78972c22e73": {
+          "type": "text",
+          "settings": {
+            "text": "Carnival season is around the corner and it looks great!",
+            "text_style": "body"
+          }
+        },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop now",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_label_1": "See more",
+            "button_link_1": "shopify:\/\/collections\/spring-arrivals",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Gear up for the season",
-            "heading_size": "h1"
-          }
         }
       },
       "block_order": [
-        "button",
-        "heading"
+        "heading",
+        "d5db0007-902c-4ccd-9b82-e78972c22e73",
+        "button"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/collage.jpg",
-        "image_overlay_opacity": 10,
+        "image_overlay_opacity": 40,
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
@@ -59,8 +67,8 @@
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "See Range",
+            "button_link": "shopify:\/\/collections",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -170,7 +178,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/thin-plant-stems-in-sun.jpg",
-            "title": "Column",
+            "title": "a-choo!",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -180,7 +188,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/blog3.jpg",
-            "title": "Column",
+            "title": "Oh, look! 👀",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -190,7 +198,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/pexels-dio-hasbi-saniskoro-3280130.jpg",
-            "title": "Column",
+            "title": "People are touching",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
