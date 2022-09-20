@@ -15,6 +15,11 @@
           "settings": {
           }
         },
+        "713ac350-4894-4920-8fe1-a5de79b5588d": {
+          "type": "price",
+          "settings": {
+          }
+        },
         "subtitle": {
           "type": "text",
           "settings": {
@@ -49,23 +54,18 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "713ac350-4894-4920-8fe1-a5de79b5588d": {
-          "type": "price",
-          "settings": {
-          }
         }
       },
       "block_order": [
         "vendor",
         "title",
+        "713ac350-4894-4920-8fe1-a5de79b5588d",
         "subtitle",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
-        "713ac350-4894-4920-8fe1-a5de79b5588d"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
