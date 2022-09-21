@@ -47,7 +47,7 @@
         "2ca664bc-2d2d-4fee-8579-c141fed5d637": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<ul style=\"align-items: center;\" class=\"list list-payment\" role=\"list\">\n              {%- for type in shop.enabled_payment_types -%}\n                <li class=\"list-payment__item\">\n                  {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}\n                <\/li>\n              {%- endfor -%}\n            <\/ul>"
+            "custom_liquid": "<ul style=\"justify-content: center;\" class=\"list list-payment\" role=\"list\">\n              {%- for type in shop.enabled_payment_types -%}\n                <li class=\"list-payment__item\">\n                  {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}\n                <\/li>\n              {%- endfor -%}\n            <\/ul>"
           }
         },
         "description": {
