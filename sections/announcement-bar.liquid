@@ -14,10 +14,7 @@
                 {% else %}
                 {{ block.settings.text | escape }}
                 {% endif %}
-                {%- if block.settings.link != blank -%}
-                  {% render 'icon-arrow' %}
-                {%- endif -%}
-                {{ block.settings.text | escape }}
+                
                 {%- if block.settings.link != blank -%}
                   {% render 'icon-arrow' %}
                 {%- endif -%}
