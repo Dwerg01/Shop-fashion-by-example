@@ -14,6 +14,7 @@
   }
 {%- endstyle -%}
 
+
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
     {%- if section.settings.heading != blank -%}
@@ -43,6 +44,7 @@
         </div>
 
 
+        
         <div class="field field--with-error">
           <input
             autocomplete="email"
@@ -72,6 +74,21 @@
       <div class="field">
         <input class="field__input" autocomplete="on" type="text" id="ContactForm-website" name="contact[website]" placeholder="Website">
         <label class="field__label" for="ContactForm-website">Website</label>
+      </div>
+      
+      <div class="field">
+        <div class="select">
+          <select name="contact[color]" id="contactForm-color" class="field__input--select field__input" style="padding: 0 1.5rem; margin: 0.1rem;">
+            <option disabled selected>Choose a color</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <label for="contactForm-color" class="field__label" style="visibility-hidden">Choose a color</label>
+          </select>
+          <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret" viewBox="0 0 10 6">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
+          </svg>
+        </div>
       </div>
       {% comment %} <div class="field">
         <input type="tel" id="ContactForm-phone" class="field__input" autocomplete="tel" name="contact[{{ 'templates.contact.form.phone' | t }}]" pattern="[0-9\-]*" value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}" placeholder="{{ 'templates.contact.form.phone' | t }}">
