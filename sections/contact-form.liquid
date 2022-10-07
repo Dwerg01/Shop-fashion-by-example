@@ -104,6 +104,10 @@
         >{{- form.body -}}</textarea>
         <label class="form__label field__label" for="ContactForm-body">{{ 'templates.contact.form.comment' | t }}</label>
       </div>
+      <div style="margin-bottom: 2rem">
+        <input type="checkbox" name="contact[agree]" />
+        <label for="agree" >Confirm that you agree to share your details</label>
+      </div>
       <div class="contact__button">
         <button type="submit" class="button">
           {{ 'templates.contact.form.send' | t }}
