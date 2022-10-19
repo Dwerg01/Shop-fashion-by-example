@@ -60,7 +60,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "shipping",
+              "text": "Free shipping over $100",
               "color_scheme": "accent-1",
               "link": "shopify:\/\/policies\/shipping-policy"
             }
