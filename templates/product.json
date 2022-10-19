@@ -20,7 +20,7 @@
           "settings": {
             "stars_fill_color": "#bab305",
             "star_size": 20,
-            "text_align": "center",
+            "text_align": "flex-start",
             "product": "{{product}}",
             "stars_text_empty": "No reviews"
           }
