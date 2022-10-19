@@ -1,11 +1,12 @@
 {
   "current": {
-    "colors_solid_button_labels": "#EFECEC",
+    "colors_solid_button_labels": "#f7f2f2",
     "colors_accent_1": "#2A332F",
+    "gradient_accent_1": "linear-gradient(133deg, rgba(250, 220, 54, 1) 11%, rgba(254, 98, 146, 1) 49%, rgba(250, 220, 54, 1) 87%)",
     "colors_accent_2": "#476154",
     "colors_text": "#1C1A1A",
     "colors_outline_button_labels": "#7B8382",
-    "colors_background_1": "#EFECEC",
+    "colors_background_1": "#f7f2f2",
     "colors_background_2": "#C1BCAE",
     "type_header_font": "bio_rhyme_n4",
     "heading_scale": 115,
