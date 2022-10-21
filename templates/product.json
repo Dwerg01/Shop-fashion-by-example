@@ -25,6 +25,16 @@
             "stars_text_empty": "Happy mothers enjoy Loomey"
           }
         },
+        "33fa9ea6-9f11-47f6-893e-2be04ebbc61c": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#f0e818",
+            "star_size": 15,
+            "text_align": "center",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
+          }
+        },
         "713ac350-4894-4920-8fe1-a5de79b5588d": {
           "type": "price",
           "settings": {
@@ -81,6 +91,7 @@
         "vendor",
         "title",
         "b973c6f9-17fa-4248-809d-dc1024438367",
+        "33fa9ea6-9f11-47f6-893e-2be04ebbc61c",
         "713ac350-4894-4920-8fe1-a5de79b5588d",
         "subtitle",
         "variant_picker",
