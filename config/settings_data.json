@@ -11,6 +11,7 @@
     "type_header_font": "alegreya_n7",
     "heading_scale": 115,
     "type_body_font": "quattrocento_sans_n4",
+    "buttons_radius": 16,
     "card_corner_radius": 10,
     "text_boxes_radius": 10,
     "sold_out_badge_color_scheme": "inverse",
