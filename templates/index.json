@@ -93,7 +93,7 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "Winter Winners",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
