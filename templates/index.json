@@ -17,10 +17,10 @@
             "text_style": "body"
           }
         },
-        "button": {
+        "bc3b9d67-1f7e-4179-a168-411588a637ea": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "See more",
+            "button_label_1": "Get Inspired! 💐",
             "button_link_1": "shopify:\/\/collections\/spring-arrivals",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -32,7 +32,7 @@
       "block_order": [
         "heading",
         "d5db0007-902c-4ccd-9b82-e78972c22e73",
-        "button"
+        "bc3b9d67-1f7e-4179-a168-411588a637ea"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/collage.jpg",
