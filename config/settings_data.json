@@ -14,6 +14,8 @@
     "buttons_radius": 16,
     "card_corner_radius": 10,
     "text_boxes_radius": 10,
+    "media_border_thickness": 2,
+    "media_border_opacity": 100,
     "media_radius": 16,
     "sold_out_badge_color_scheme": "inverse",
     "social_instagram_link": "http:\/\/instagram.com\/shopify",
