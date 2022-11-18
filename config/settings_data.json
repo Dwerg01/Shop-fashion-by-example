@@ -12,6 +12,7 @@
     "heading_scale": 115,
     "type_body_font": "quattrocento_sans_n4",
     "card_corner_radius": 10,
+    "text_boxes_radius": 10,
     "cart_type": "drawer",
     "checkout_header_image": "shopify:\/\/shop_images\/model-in-heels-and-overalls-with-blue.jpg",
     "checkout_logo_position": "center",
