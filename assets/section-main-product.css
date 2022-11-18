@@ -1185,6 +1185,6 @@ a.product__text {
 }
 
 .button-secondary {
-  background-color: blue;
+  background-color: blue !important;
   
 }
