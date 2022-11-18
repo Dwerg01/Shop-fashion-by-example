@@ -286,7 +286,7 @@ body,
 .color-accent-1,
 .color-accent-2 {
   color: var(--color-foreground);
-  background-color: var(--color-accent-grad-1);
+  background-color: linear-gradient(90deg, yellow, pink);
 }
 
 .background-secondary {
