@@ -2183,6 +2183,7 @@ input[type='checkbox'] {
 
 .announcement-bar__link .announcement-bar__message {
   padding: 0;
+  color: var(--gradient-base-accent-2)
 }
 
 .announcement-bar__message {
