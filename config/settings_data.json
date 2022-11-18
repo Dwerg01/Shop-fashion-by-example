@@ -2,7 +2,7 @@
   "current": {
     "colors_solid_button_labels": "#f7f2f2",
     "colors_accent_1": "#2A332F",
-    "gradient_accent_1": "linear-gradient(133deg, rgba(237, 118, 253, 1), rgba(227, 250, 54, 1) 34%, rgba(64, 250, 148, 1) 67%, rgba(35, 177, 242, 1) 100%)",
+    "gradient_accent_1": "linear-gradient(133deg, rgba(70, 64, 250, 1) 4%, rgba(229, 81, 249, 1) 22%, rgba(253, 125, 247, 1) 74%, rgba(227, 250, 54, 1) 94%)",
     "colors_accent_2": "#476154",
     "colors_text": "#1C1A1A",
     "colors_outline_button_labels": "#030303",
