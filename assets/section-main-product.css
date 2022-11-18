@@ -264,7 +264,7 @@ fieldset.product-form__input .form__label {
 .no-js .product-form__submit.button--secondary {
   --color-button: var(--color-base-accent-1);
   --color-button-text: var(--color-base-solid-button-labels);
-/*   --alpha-button-background: 1; */
+  --alpha-button-background: 1;
 }
 
 .product-form__submit[aria-disabled="true"] + .shopify-payment-button .shopify-payment-button__button[disabled],
@@ -1182,4 +1182,9 @@ a.product__text {
   width: 1.2rem;
   margin-left: 1.2rem;
   flex-shrink: 0;
+}
+
+.button-secondary {
+  background-color: blue;
+  
 }
