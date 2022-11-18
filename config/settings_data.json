@@ -4,6 +4,7 @@
     "colors_accent_1": "#2A332F",
     "gradient_accent_1": "linear-gradient(133deg, rgba(70, 64, 250, 1) 12%, rgba(229, 81, 249, 1) 44%, rgba(253, 125, 247, 1) 74%, rgba(227, 250, 54, 1) 94%)",
     "colors_accent_2": "#476154",
+    "gradient_accent_2": "linear-gradient(95deg, rgba(241, 241, 241, 1), rgba(255, 255, 255, 1) 100%)",
     "colors_text": "#1C1A1A",
     "colors_outline_button_labels": "#030303",
     "colors_background_1": "#efecec",
