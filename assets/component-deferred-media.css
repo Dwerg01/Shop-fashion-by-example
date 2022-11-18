@@ -52,7 +52,7 @@
 
 .deferred-media__poster-button {
   background-color: rgb(var(--color-background));
-  border: 0.1rem solid linear-gradient(var(--gradient-base-accent-1), 1);
+  border: 0.1rem linear-gradient(var(--gradient-base-accent-1), 1);
   border-radius: 50%;
   color: rgb(var(--color-foreground));
   display: flex;
