@@ -13,6 +13,7 @@
     "type_body_font": "quattrocento_sans_n4",
     "buttons_radius": 16,
     "inputs_border_thickness": 2,
+    "inputs_radius": 16,
     "card_corner_radius": 10,
     "text_boxes_radius": 10,
     "media_border_thickness": 2,
