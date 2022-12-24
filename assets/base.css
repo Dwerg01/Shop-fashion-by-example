@@ -1314,7 +1314,7 @@ button.shopify-payment-button__button--unbranded {
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
   appearance: none;
-  background-color: rgba(var(--color-button), var(--alpha-button-background));
+/*   background-color: rgba(var(--color-button), var(--alpha-button-background)); */
 }
 
 .button:before,
@@ -2183,6 +2183,8 @@ input[type='checkbox'] {
 
 .announcement-bar__link .announcement-bar__message {
   padding: 0;
+/*   color: var(--gradient-base-accent-2); */
+  color: white;
 }
 
 .announcement-bar__message {

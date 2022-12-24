@@ -17,10 +17,10 @@
             "text_style": "body"
           }
         },
-        "button": {
+        "bc3b9d67-1f7e-4179-a168-411588a637ea": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "See more",
+            "button_label_1": "Get Inspired! 💐",
             "button_link_1": "shopify:\/\/collections\/spring-arrivals",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -32,7 +32,7 @@
       "block_order": [
         "heading",
         "d5db0007-902c-4ccd-9b82-e78972c22e73",
-        "button"
+        "bc3b9d67-1f7e-4179-a168-411588a637ea"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/collage.jpg",
@@ -46,6 +46,47 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "video": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/about-us.png",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video",
+            "image_padding": false
+          }
+        },
+        "product": {
+          "type": "product",
+          "settings": {
+            "product": "led-high-tops",
+            "second_image": false
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "collection": "spring-arrivals"
+          }
+        }
+      },
+      "block_order": [
+        "video",
+        "product",
+        "collection"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich_text": {
@@ -93,7 +134,7 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "Winter Winners",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -105,7 +146,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "image_ratio": "square",
         "show_secondary_image": false,
         "show_vendor": false,
@@ -113,47 +154,6 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "video": {
-          "type": "video",
-          "settings": {
-            "cover_image": "shopify:\/\/shop_images\/about-us.png",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "led-high-tops",
-            "second_image": false
-          }
-        },
-        "collection": {
-          "type": "collection",
-          "settings": {
-            "collection": "spring-arrivals"
-          }
-        }
-      },
-      "block_order": [
-        "video",
-        "product",
-        "collection"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -303,9 +303,9 @@
   },
   "order": [
     "image_banner",
+    "collage",
     "rich_text",
     "featured_products",
-    "collage",
     "video",
     "multi_column",
     "1663735530e85c950d"

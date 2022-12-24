@@ -259,6 +259,7 @@ fieldset.product-form__input .form__label {
 
 .product-form__submit {
   margin-bottom: 1rem;
+  background: var(--gradient-base-accent-1);
 }
 
 .no-js .product-form__submit.button--secondary {
@@ -1183,3 +1184,4 @@ a.product__text {
   margin-left: 1.2rem;
   flex-shrink: 0;
 }
+
