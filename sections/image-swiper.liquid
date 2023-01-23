@@ -1,0 +1,70 @@
+{{ 'image-swiper.css' | asset_url | stylesheet_tag }}
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<div class="swiper" style="width:80%;">
+    <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="swiper-slide">
+              <img src="{{ block.settings.swiper-image | img_url }}" alt="">
+          </div>
+        {% endfor %}
+    </div>
+</div>
+
+<script>
+  
+const swiper = new Swiper('.swiper', {
+
+        loop: true,
+        autoplay: true,
+        breakpoints: 
+        {
+            320: 
+            {
+            slidesPerView: 2,
+            spaceBetween: 20
+            },
+            750: 
+            {
+            slidesPerView: 3,
+            spaceBetween: 30
+
+            },
+            989: 
+            {
+            slidesPerView: 5,
+            spaceBetween: 40
+            }
+        }
+    }); 
+</script>
+{% schema %}
+  {
+    "name": "Image swiper",
+    "tag": "section",
+    "class": "section",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "swiper-slide",
+        "name": "swiper-slide",
+        "settings": [
+          { 
+            "id": "swiper-image",
+            "label": "swiper-image",
+            "type": "image_picker" 
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Image swiper"
+      }
+    ]
+  }
+{% endschema %}
