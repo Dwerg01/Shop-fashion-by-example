@@ -299,36 +299,6 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
-    },
-    "3ead4c4b-e9f9-4c99-8d6a-857871460684": {
-      "type": "image-swiper",
-      "blocks": {
-        "cf77998b-b666-4c1d-99eb-110e57587b39": {
-          "type": "swiper-slide",
-          "settings": {
-            "swiper-image": "shopify:\/\/shop_images\/person-holding-box.jpg"
-          }
-        },
-        "02c0dca5-577c-4eb1-bdc5-d5e088db42c9": {
-          "type": "swiper-slide",
-          "settings": {
-            "swiper-image": "shopify:\/\/shop_images\/thin-plant-stems-in-sun.jpg"
-          }
-        },
-        "239df702-a52b-4dc4-a37a-6a1c601f2cd6": {
-          "type": "swiper-slide",
-          "settings": {
-            "swiper-image": "shopify:\/\/shop_images\/about_2.webp"
-          }
-        }
-      },
-      "block_order": [
-        "cf77998b-b666-4c1d-99eb-110e57587b39",
-        "02c0dca5-577c-4eb1-bdc5-d5e088db42c9",
-        "239df702-a52b-4dc4-a37a-6a1c601f2cd6"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
@@ -338,7 +308,6 @@
     "featured_products",
     "video",
     "multi_column",
-    "1663735530e85c950d",
-    "3ead4c4b-e9f9-4c99-8d6a-857871460684"
+    "1663735530e85c950d"
   ]
 }
