@@ -9,11 +9,8 @@
     <div class="swiper-wrapper">
         {% for block in section.blocks %}
           <div class="swiper-slide">
-            <h3 class="example">{{ block.settings.swiper-title }}</h3>
-            <img src="{{ block.settings.swiper-image | img_url }}" alt="">
-            <p>{{ block.settings.swiper-text }}</p>
+              <img src="{{ block.settings.swiper-image | img_url }}" alt="">
           </div>
-
         {% endfor %}
     </div>
 </div>
@@ -57,19 +54,9 @@ const swiper = new Swiper('.swiper', {
         "name": "swiper-slide",
         "settings": [
           { 
-            "id": "swiper-title",
-            "label": "Swiper-title",
-            "type": "text" 
-          },
-          { 
             "id": "swiper-image",
             "label": "swiper-image",
             "type": "image_picker" 
-          },
-          { 
-            "id": "swiper-text",
-            "label": "swiper-text",
-            "type": "text" 
           }
         ]
       }
