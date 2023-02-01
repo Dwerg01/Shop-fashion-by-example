@@ -4,21 +4,19 @@
 {% javascript %}
     const swiper = new Swiper('.swiper', {
         init: true,
-        allowSlideNext: true,
-        allowSlidePrev: true,
         allowTouchMove: true,
-        loop: true,
         autoplay: true,
+        loop: true,
         breakpoints: {
         
         // when window widht is >= 320
         320: {
-            slidesPerView: 1,
+            slidesPerView: 2,
             spaceBetween: 20
         },
         // when window widht is >= 590
         590: {
-            slidesPerView: 2,
+            slidesPerView: 3,
             spaceBetween: 20
         },
         // when window widht is >= 989
@@ -35,13 +33,13 @@
 {% endif %}
 
 <div class="swiper">
-    <div class="wrapper-around-text swiper-wrapper" style="display:flex; justify-content:space-evenly;">
+    <div class="wrapper-around-text swiper-wrapper" style="display:flex;">
 
     {%- for block in section.blocks -%}
 
 
 
-        <div class="main-block swiper-slide" style="text-align: {{ block.settings.text_alignment }};">
+        <div class="icon-block swiper-slide" style="text-align: {{ block.settings.text_alignment }};">
             <h4>{{ block.settings.block-heading }}</h4>
 
             <div class="block-icon">
@@ -446,7 +444,7 @@
 </div>
 {% schema %}
   {
-  "name": "Icon with text slider",
+  "name": "Custom icon slider",
   "class": "icon-slide",
   "max_blocks": 12,
   "tag": "section",
@@ -582,7 +580,7 @@
   ],
   "presets": [
     {
-      "name": "Icon with text slider"
+      "name": "Custom icon slider"
     }
   ]
 }  
@@ -590,14 +588,11 @@
 
 {% stylesheet %}
     .swiper {
-       
+       width: clamp(300px, 80%, 900px);
     }
-    .main-block {
+    .icon-block {
         margin: 30px 0;
-    }
-
-    .block-icon {
-        /* display: block; */
+        /* width: 250px; */
     }
 
     .block-icon svg {
