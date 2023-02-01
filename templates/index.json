@@ -299,6 +299,46 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "e3fe3c13-0205-4793-a6b7-52567ac6999c": {
+      "type": "custom-swiper-icon",
+      "blocks": {
+        "270b55f1-f5c6-486f-9bee-09faf9736a16": {
+          "type": "column",
+          "settings": {
+            "block-heading": "Column Heading",
+            "text_alignment": "center",
+            "icon": "chat",
+            "icon-text": "Describe the image in your slide"
+          }
+        },
+        "c41fd50c-61bd-4b55-8617-772936262da2": {
+          "type": "column",
+          "settings": {
+            "block-heading": "Column Heading",
+            "text_alignment": "center",
+            "icon": "stopwatch",
+            "icon-text": "Describe the image in your slide"
+          }
+        },
+        "957f5083-8bdb-4d7d-adc5-3a819a7a38ab": {
+          "type": "column",
+          "settings": {
+            "block-heading": "Column Heading",
+            "text_alignment": "center",
+            "icon": "gears",
+            "icon-text": "Describe the image in your slide"
+          }
+        }
+      },
+      "block_order": [
+        "270b55f1-f5c6-486f-9bee-09faf9736a16",
+        "c41fd50c-61bd-4b55-8617-772936262da2",
+        "957f5083-8bdb-4d7d-adc5-3a819a7a38ab"
+      ],
+      "settings": {
+        "title": "Icon slider header"
+      }
     }
   },
   "order": [
@@ -308,6 +348,7 @@
     "featured_products",
     "video",
     "multi_column",
-    "1663735530e85c950d"
+    "1663735530e85c950d",
+    "e3fe3c13-0205-4793-a6b7-52567ac6999c"
   ]
 }
