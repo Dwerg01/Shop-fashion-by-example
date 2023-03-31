@@ -28,6 +28,8 @@
     "social_instagram_link": "http:\/\/instagram.com\/shopify",
     "social_tiktok_link": "https:\/\/tiktok.com\/@shopify",
     "social_youtube_link": "https:\/\/www.youtube.com\/shopify",
+    "predictive_search_show_vendor": true,
+    "predictive_search_show_price": true,
     "cart_type": "drawer",
     "checkout_header_image": "shopify:\/\/shop_images\/model-in-heels-and-overalls-with-blue.jpg",
     "checkout_logo_position": "center",
