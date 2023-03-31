@@ -158,15 +158,29 @@
         "padding_bottom": 36
       }
     },
-    "video": {
-      "type": "video",
+    "feb9cbab-72a9-436e-9421-2bcf7c94f35b": {
+      "type": "featured-collection",
       "settings": {
-        "heading": "Video",
+        "title": "Featured collection",
         "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
         "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -346,7 +360,7 @@
     "collage",
     "rich_text",
     "featured_products",
-    "video",
+    "feb9cbab-72a9-436e-9421-2bcf7c94f35b",
     "multi_column",
     "1663735530e85c950d",
     "e3fe3c13-0205-4793-a6b7-52567ac6999c"
