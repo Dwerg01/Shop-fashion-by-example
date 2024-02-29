@@ -117,10 +117,16 @@
         "settings": {
           "button_color": "#712780",
           "button_icon": "chat_bubble",
+          "button_text": "chat_with_us",
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
-          "button_text": "chat_with_us",
           "greeting_message": "👋 Hello! Please message us if you have questions, we're here to help"
+        }
+      },
+      "5294968793578418440": {
+        "type": "shopify:\/\/apps\/king-product-options-variant\/blocks\/app-embed\/ce104259-52b1-4720-9ecf-76b34cae0401",
+        "disabled": false,
+        "settings": {
         }
       }
     }
